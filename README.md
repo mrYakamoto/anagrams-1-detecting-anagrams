@@ -4,9 +4,9 @@
 
 ##Summary
 
-An **anagram** is a word formed by rearranging the letters of another word, e.g., *iceman* is an anagram of *cinema*.
+An **anagram** is a word formed by rearranging the letters of another word, that is, *iceman* is an anagram of *cinema*.
 
-Since this relationship is symmetric &mdash; X is an anagram of Y if and only if Y is an anagram of X &mdash; you'll often hear people say that, e.g., "iceman and cinema are anagrams" or "iceman and cinema are anagrams of each other." They all mean the same thing: you can rearrange the letters of one word to spell another.
+Since this relationship is symmetric–X is an anagram of Y if and only if Y is an anagram of X–you'll often hear people say that, e.g., "iceman and cinema are anagrams" or "iceman and cinema are anagrams of each other." They all mean the same thing: you can rearrange the letters of one word to spell another.
 
 We're going to write a method `is_anagram?` that takes two strings as input and returns `true` if the two strings are anagrams and `false` otherwise.
 
@@ -16,9 +16,9 @@ For now we won't care if the strings are valid English words or not.
 * [Anagram on Wikipedia](http://en.wikipedia.org/wiki/Anagram)
 
 ## Learning Goals
-* Modeling a simple real-world procedure in Ruby
-* Method definition, arguments, and return values
-* Common string methods
+* Model a simple real-world procedure in Ruby.
+* Method definition, arguments, and return values.
+* Common string methods.
 
 ## As you're coding, ask yourself...
 * Do I have a clear understanding of how this procedure works?
