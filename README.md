@@ -2,6 +2,10 @@
 
 ##Learning Competencies
 
+* Model a simple real-world procedure in Ruby.
+* Method definition, arguments, and return values.
+* Common string methods.
+
 ##Summary
 
 An **anagram** is a word formed by rearranging the letters of another word, that is, *iceman* is an anagram of *cinema*.
@@ -12,21 +16,9 @@ We're going to write a method `is_anagram?` that takes two strings as input and 
 
 For now we won't care if the strings are valid English words or not.
 
-## External Resources
-* [Anagram on Wikipedia](http://en.wikipedia.org/wiki/Anagram)
+##Releases
 
-## Learning Goals
-* Model a simple real-world procedure in Ruby.
-* Method definition, arguments, and return values.
-* Common string methods.
-
-## As you're coding, ask yourself...
-* Do I have a clear understanding of how this procedure works?
-* Am I stuck because I know what I want to do but don't know how to say it in Ruby?
-* Am I stuck because my understanding of how anagrams work is to fuzzy or mistaken?
-
-## Objectives
-### Pseudocode Implementation of `is_anagram?`
+###Release 0 : Pseudocode Implementation of `is_anagram?`
 
 Before you start writing a single line of Ruby code, sit down and ask yourself, "Do I know how to tell whether two words are anagrams?"
 
@@ -40,7 +32,7 @@ Finally, write pseudocode that outlines your own mental procedure in a way that'
 
 **Note:** If you have spent more than 20 minutes trying to figure out how to do this, check in with a fellow student or staff. There's a very simple way to implement this!
 
-### Ruby Implementation of `is_anagram?`
+###Release 1 : Ruby Implementation of `is_anagram?`
 
 Write a method `is_anagram?` in Ruby that takes two strings as input and returns `true` if the two strings are anagrams and `false` otherwise. The method should be *case insensitive*. For example,
 
@@ -69,9 +61,9 @@ is_anagram?('pants', 'turtle')  # => false
 is_anagram?('123123', 'kjhasd') # => false
 ```
 
-## After you're done, ask yourself...
+###Release 2 : Canonical Version
 
-* Is there a way to transform a word into a "canonical" representation such that two words have the same canonical representation precisely when they're anagrams of each other?
+Is there a way to transform a word into a "canonical" representation such that two words have the same canonical representation precisely when they're anagrams of each other?
 
 That is, can you define a method `canonical` which lets us write `is_anagram?` like this?
 
@@ -85,11 +77,14 @@ def is_anagram?(word1, word2)
 end
 ```
 
-Please include in the Gist: Why is adding the canonical method a good idea?  What principles in programming does it follow?
-
-##Releases
-###Release 0
-
 ##Optimize Your Learning
 
+As you are coding consider and discuss: 
+  * Do I have a clear understanding of how this procedure works?
+  * Am I stuck because I know what I want to do but don't know how to say it in Ruby?
+  * Am I stuck because my understanding of how anagrams work is to fuzzy or mistaken?
+  * Why is adding the canonical method a good idea?  What principles in programming does it follow?
+
 ##Resources
+
+* [Anagram on Wikipedia](http://en.wikipedia.org/wiki/Anagram)
