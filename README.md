@@ -1,12 +1,12 @@
-# Anagrams 1 Detecting Anagrams 
- 
-##Learning Competencies 
+# Anagrams 1 Detecting Anagrams
 
-##Summary 
+##Learning Competencies
 
- An **anagram** is a word formed by rearranging the letters of another word, e.g., *iceman* is an anagram of *cinema*.
+##Summary
 
-Since this relationship is symmetric &mdash; X is an anagram of Y if and only if Y is an anagram of X &mdash; you'll often hear people say that, e.g., "iceman and cinema are anagrams" or "iceman and cinema are anagrams of each other."  They all mean the same thing: you can rearrange the letters of one word to spell another.
+An **anagram** is a word formed by rearranging the letters of another word, that is, *iceman* is an anagram of *cinema*.
+
+Since this relationship is symmetric–X is an anagram of Y if and only if Y is an anagram of X–you'll often hear people say that, e.g., "iceman and cinema are anagrams" or "iceman and cinema are anagrams of each other." They all mean the same thing: you can rearrange the letters of one word to spell another.
 
 We're going to write a method `is_anagram?` that takes two strings as input and returns `true` if the two strings are anagrams and `false` otherwise.
 
@@ -16,9 +16,9 @@ For now we won't care if the strings are valid English words or not.
 * [Anagram on Wikipedia](http://en.wikipedia.org/wiki/Anagram)
 
 ## Learning Goals
-* Modeling a simple real-world procedure in Ruby
-* Method definition, arguments, and return values
-* Common string methods
+* Model a simple real-world procedure in Ruby.
+* Method definition, arguments, and return values.
+* Common string methods.
 
 ## As you're coding, ask yourself...
 * Do I have a clear understanding of how this procedure works?
@@ -32,17 +32,17 @@ Before you start writing a single line of Ruby code, sit down and ask yourself, 
 
 Your `is_anagram?` method will be a (digital, computerized, mechanical) model of the (analog, organic, human) process by which you determine whether two words are anagrams.
 
-Once you're confident that *you* can tell whether two words are anagrams, reflect on your own or with your pair about how that process works.  Can you explain it to your pair in a way that they understand?  How do you know whether they've understood you?
+Once you're confident that *you* can tell whether two words are anagrams, reflect on your own or with your pair about how that process works. Can you explain it to your pair in a way that they understand? How do you know whether they've understood you?
 
 If you can't explain it to another person, you'll have a hard time "explaining" it to a computer via Ruby code!
 
 Finally, write pseudocode that outlines your own mental procedure in a way that's easy for a human to both understand and translate into their favorite programming language.
 
-**Note:** If you have spent more than 20 minutes trying to figure out how to do this, check in with a fellow student or staff.  There's a very simple way to implement this!
+**Note:** If you have spent more than 20 minutes trying to figure out how to do this, check in with a fellow student or staff. There's a very simple way to implement this!
 
 ### Ruby Implementation of `is_anagram?`
 
-Write a method `is_anagram?` in Ruby that takes two strings as input and returns `true` if the two strings are anagrams and `false` otherwise.  The method should be *case insensitive*.  For example,
+Write a method `is_anagram?` in Ruby that takes two strings as input and returns `true` if the two strings are anagrams and `false` otherwise. The method should be *case insensitive*. For example,
 
 ```ruby
 # The method should be symmetric, i.e.,
@@ -85,11 +85,11 @@ def is_anagram?(word1, word2)
 end
 ```
 
-Please include in the Gist:  Why is adding the canonical method a good idea?  What principles in programming does it follow? 
+Please include in the Gist: Why is adding the canonical method a good idea?  What principles in programming does it follow?
 
 ##Releases
-###Release 0 
+###Release 0
 
-##Optimize Your Learning 
+##Optimize Your Learning
 
 ##Resources
