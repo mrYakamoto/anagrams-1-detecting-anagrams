@@ -12,7 +12,7 @@ An **anagram** is a word formed by rearranging the letters of another word. For 
 
 This relationship is symmetric (i.e., *iceman* is an anagram of *cinema*, if and only if *cinema* is an anagram of *iceman*). Therefore, you'll often hear people say that "*iceman* and *cinema* are anagrams" or "*iceman* and *cinema* are anagrams of each other." Regardless of how you say it, if two words are anagrams, you can rearrange the letters of one word to spell the other.
 
-To complete this challenge, write a method `is_anagram?` that accepts two String arguments and returns `true` if the strings are anagrams and `false` if they are not.  Don't worry about whether or not the strings are real words.
+To complete this challenge, you will write a method `is_anagram?` that determines whether or not two strings are anagrams.
 
 ##Releases
 
