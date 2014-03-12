@@ -18,17 +18,11 @@ To complete this challenge, write a method `is_anagram?` that accepts two String
 
 ###Release 0 : Pseudocode Implementation of `is_anagram?`
 
-Before you start writing a single line of Ruby code, sit down and ask yourself, "Do I know how to tell whether two words are anagrams?"
+Define your own personal process for determining if two words are anagrams of each other.  Once you define your process, try to explain it to your pair.  Was your process easy to explain? Are you sure they understood?  If it was hard to explain to another person, it will probably be difficult to write code for the computer to interpret.
 
-Your `is_anagram?` method will be a (digital, computerized, mechanical) model of the (analog, organic, human) process by which you determine whether two words are anagrams.
+Once your personal process is refactored to be easily communicated, you'll want to transform it into a set of instructions for the computer.  The first step is to write pseudocode that outlines your own mental procedure. Your pseudocode should be both easy for a human to understand and to translate into code.
 
-Once you're confident that *you* can tell whether two words are anagrams, reflect on your own or with your pair about how that process works. Can you explain it to your pair in a way that they understand? How do you know whether they've understood you?
-
-If you can't explain it to another person, you'll have a hard time "explaining" it to a computer via Ruby code!
-
-Finally, write pseudocode that outlines your own mental procedure in a way that's easy for a human to both understand and translate into their favorite programming language.
-
-**Note:** If you have spent more than 20 minutes trying to figure out how to do this, check in with a fellow student or staff. There's a very simple way to implement this!
+**Note:** If you have spent more than 20 minutes trying to figure out how to do this, check in with a fellow student or an instructor.
 
 ###Release 1 : Ruby Implementation of `is_anagram?`
 
