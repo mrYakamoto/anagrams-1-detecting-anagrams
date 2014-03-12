@@ -26,32 +26,35 @@ Once your personal process is refactored to be easily communicated, you'll want 
 
 ###Release 1 : Ruby Implementation of `is_anagram?`
 
-Write a method `is_anagram?` in Ruby that takes two strings as input and returns `true` if the two strings are anagrams and `false` otherwise. The method should be *case insensitive*. For example,
+Write a method `is_anagram?` that accepts two String arguments and returns `true` if the strings are anagrams and `false` if they are not.  
 
-```ruby
-# The method should be symmetric, i.e.,
-# is_anagram?(word1, word2) == is_anagram?(word2, word1) for any two words
-is_anagram?('cinema', 'iceman') # => true
-is_anagram?('iceman', 'cinema') # => true
+**Guidelines:**
 
-# Pedantically, a word is always an anagram of itself.
-# This is called being "reflexive," i.e., is_anagram?(word, word) == true for any word
-is_anagram?('pants', 'pants')   # => true
+* The order of the arguments should not matter.
 
-# is_anagram? should be case-insensitive
-is_anagram?('CiNemA', 'iceman') # => true
+  ```ruby
+  is_anagram?('cinema', 'iceman') # => true
+  is_anagram?('iceman', 'cinema') # => true
+  ```
 
-# Notice: acres, cares, and scare are all anagrams of each other
-is_anagram?('acres', 'cares')   # => true
-is_anagram?('cares', 'scare')   # => true
-is_anagram?('scare', 'acres')   # => true
+* A word is an anagram of itself.
 
-# The "words" don't need to be valid English words
-is_anagram('abcde2', 'c2abed')  # => true
+  ```ruby
+  is_anagram?('pants', 'pants')   # => true
+  ```
 
-is_anagram?('pants', 'turtle')  # => false
-is_anagram?('123123', 'kjhasd') # => false
-```
+* Anagrams are case-insensitive
+  
+  ```ruby
+  is_anagram?('CiNemA', 'iceman') # => true
+  ```
+
+* The String argumenets don't need to be valid English words.
+
+  ```ruby
+  is_anagram('abcde2', 'c2abed')  # => true
+  is_anagram?('kilso', 'osilk')   # => true
+  ```
 
 ###Release 2 : Canonical Version
 
