@@ -8,7 +8,7 @@
 
 ##Summary
 
-An **anagram** is a word formed by rearranging the letters of another word. For example, *iceman* is an anagram of *cinema* because the letters of *cinema* can be rearranges to form *iceman*.
+An **anagram** is a word formed by rearranging the letters of another word. For example, *iceman* is an anagram of *cinema* because the letters of *cinema* can be rearranged to form *iceman*.
 
 This relationship is symmetric (i.e., *iceman* is an anagram of *cinema*, if and only if *cinema* is an anagram of *iceman*). Therefore, you'll often hear people say that "*iceman* and *cinema* are anagrams" or "*iceman* and *cinema* are anagrams of each other." Regardless of how you say it, if two words are anagrams, you can rearrange the letters of one word to spell the other.
 
