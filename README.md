@@ -58,17 +58,21 @@ Write a method `is_anagram?` that accepts two String arguments and returns `true
 
 ###Release 2 : Canonical Version
 
-Is there a way to transform a word into a "canonical" representation such that two words have the same canonical representation precisely when they're anagrams of each other?
+In comparing the two String arguments, your method is probably altering or manipulating each string.  Furthermore, it's probably altering each string in the same way.  The manipulated version of a string represents its canonical version.  If the canonical versions (i.e., the manipulated versions) of two strings are equal, the words are anagrams.
 
-That is, can you define a method `canonical` which lets us write `is_anagram?` like this?
+Rewrite your `is_anagram?` method to be ...
+
+```ruby
+def is_anagram?(word1, word2)
+  canonical(word1) == canonical(word2)
+end
+```
+
+Write a `canonical` method that handles the logic for manipulating a string into its canonical version. 
 
 ```ruby
 def canonical(word)
   # Magic goes here
-end
-
-def is_anagram?(word1, word2)
-  canonical(word1) == canonical(word2)
 end
 ```
 
