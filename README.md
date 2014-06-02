@@ -1,4 +1,4 @@
-# Anagrams 1 Detecting Anagrams
+e# Anagrams 1 Detecting Anagrams
 
 ##Learning Competencies
 
@@ -12,7 +12,7 @@ An **anagram** is a word formed by rearranging the letters of another word. For 
 
 This relationship is symmetric (i.e., *iceman* is an anagram of *cinema*, if and only if *cinema* is an anagram of *iceman*). Therefore, you'll often hear people say that "*iceman* and *cinema* are anagrams" or "*iceman* and *cinema* are anagrams of each other." Regardless of how you say it, if two words are anagrams, you can rearrange the letters of one word to spell the other.
 
-To complete this challenge, you will write a method `is_anagram?` that determines whether or not two strings are anagrams.
+To complete this challenge, you will write a method `is_anagram?` that determines whether or not two strings are anagrams and write tests to prove that your code works correctly.
 
 ##Releases
 
@@ -26,9 +26,10 @@ Once your personal process is refactored to be easily communicated, you'll want 
 
 ###Release 1 : Ruby Implementation of `is_anagram?`
 
-Write a method `is_anagram?` that accepts two String arguments and returns `true` if the strings are anagrams and `false` if they are not.  
+Write a method `is_anagram?` that accepts two String arguments and returns `true` if the strings are anagrams and `false` if they are not.
 
 **Guidelines:**
+The following guidelines point out some edge cases of `is_anagram?`. _You should include tests for each these edge cases._
 
 * The order of the arguments should not matter.
 
@@ -44,7 +45,7 @@ Write a method `is_anagram?` that accepts two String arguments and returns `true
   ```
 
 * Anagrams are case-insensitive
-  
+
   ```ruby
   is_anagram?('CiNemA', 'iceman') # => true
   ```
@@ -68,7 +69,7 @@ def is_anagram?(word1, word2)
 end
 ```
 
-Write a `canonical` method that handles the logic for manipulating a string into its canonical version. 
+Write a `canonical` method that handles the logic for manipulating a string into its canonical version.
 
 ```ruby
 def canonical(word)
@@ -76,12 +77,15 @@ def canonical(word)
 end
 ```
 
+Since this is a simple refactor, you shouldn't need to change the tests you wrote in Release 1.
+
 ##Optimize Your Learning
 
-As you are coding consider and discuss: 
+As you are coding consider and discuss:
   * Do I have a clear understanding of how this procedure works?
   * Am I stuck because I know what I want to do but don't know how to say it in Ruby?
   * Am I stuck because my understanding of how anagrams work is to fuzzy or mistaken?
+  * Do my tests prove that my code is working correctly?
   * Why is adding the canonical method a good idea?  What principles in programming does it follow?
 
 ##Resources
