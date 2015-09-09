@@ -1,4 +1,4 @@
-require_relative 'anagrams'
+require_relative '../anagrams'
 
 describe 'is_anagram?' do
   it 'should return true for a simple anagram' do
