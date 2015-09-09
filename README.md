@@ -1,18 +1,7 @@
-e# Anagrams 1 Detecting Anagrams
+# Anagrams 1: Detecting Anagrams
 
-##Learning Competencies
+## SummaryIn this challenge, we'll write a method that will tell us if two words are *anagrams*.  An anagram is a word formed by rearranging the letters of another word. For example, we can spell *melon* by rearranging the letters in *lemon*.  Therefore, melon is an anagram of lemon.  We could also say that lemon is an anagram of melon.  Or, we could just say that lemon and melon are anagrams.  Regardless of how we say it, two words are anagrams if we can rearrange the letters of one to spell the other.
 
-* Model a simple real-world system in Ruby code
-* Method definition, arguments, and return values
-* Implement common string methods
-
-##Summary
-
-An **anagram** is a word formed by rearranging the letters of another word. For example, *iceman* is an anagram of *cinema* because the letters of *cinema* can be rearranged to form *iceman*.
-
-This relationship is symmetric (i.e., *iceman* is an anagram of *cinema*, if and only if *cinema* is an anagram of *iceman*). Therefore, you'll often hear people say that "*iceman* and *cinema* are anagrams" or "*iceman* and *cinema* are anagrams of each other." Regardless of how you say it, if two words are anagrams, you can rearrange the letters of one word to spell the other.
-
-To complete this challenge, you will write a method `is_anagram?` that determines whether or not two strings are anagrams and write tests to prove that your code works correctly.
 
 ##Releases
 
