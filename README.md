@@ -31,23 +31,23 @@ No tests have been provided.  We'll need to write them ourselves.  Remember our 
 ### Release 2: Edge Cases
 ```ruby
 # Argument order does not matter.
-is_anagram?('melon', 'lemon')
+anagrams?('melon', 'lemon')
 # => true
-is_anagram?('lemon', 'melon')
+anagrams?('lemon', 'melon')
 # => true
 
 # A word is an anagram of itself.
-is_anagram?('melon', 'melon')
+anagrams?('melon', 'melon')
 # => true
 
 # Anagrams are case-insensitive.
-is_anagram?('MELON', 'lemon')
+anagrams?('MELON', 'lemon')
 # => true
 
 # The arguments don't need to be valid English words.
-is_anagram('abcde2', 'c2abed')
+anagrams?('abcde2', 'c2abed')
 # => true
-is_anagram?('kilso', 'osilk')
+anagrams?('kilso', 'osilk')
 # => true
 ```
 *Figure 2*.  Edge case examples for detecting anagrams.
